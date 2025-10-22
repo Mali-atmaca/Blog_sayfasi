@@ -1,0 +1,36 @@
+/* style-register.css */
+
+body {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.container {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  padding: 45px 35px;
+  margin-top: 70px;
+  max-width: 420px;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-size: 1.1rem;
+  border-color: #ff7e5f;
+}
+
+button {
+  background-color: #ff7e5f;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e56745;
+}
